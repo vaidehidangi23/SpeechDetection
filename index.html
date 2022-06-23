@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Speech Detection</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+        <link rel="stylesheet" href="styles.css">
+ 
+    </head>
+    <body>
+        <div class="container">
+            <div class="app">
+                <h1 class="text-center mt-5" style="color:white">Speech Detection</h1>
+                <div class="input-single">
+                    <textarea id="note-textarea" placeholder="Start speaking"  style="background-color: #13466e" style="color:white" rows="6"></textarea>
+                </div>        
+                <button id="start-record-btn" title="Start Recording">Start Recognition</button>
+                <button id="pause-record-btn" title="Pause Recording">Pause Recognition</button>
+                  
+                <p id="recording-instructions" style="color: white">Press the <strong>Start Recognition</strong> button and allow access.</p>
+                
+            </div>
+ 
+        </div>
+ 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+ 
+        
+ 
+    </body>
+</html>
